@@ -4,7 +4,9 @@
 
 body {
   font-size: 13px;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+  background:#f0f0f0;
+}
 
 li {
   list-style-type: none; }
@@ -841,7 +843,8 @@ aside .boxWidget {
     font-weight: bold; }
 
 .pageSpecial {
-  text-align: center; }
+  text-align: center; 
+}
   .pageSpecial h1 {
     font-size: 40px;
     text-transform: uppercase;
@@ -1481,3 +1484,6 @@ textarea {
     margin: 0 auto; } }
 
 /*# sourceMappingURL=layout.css.map */
+@media (max-width:767px){
+	.inline-block{position: static !important;}
+}
